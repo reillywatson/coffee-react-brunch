@@ -2,7 +2,7 @@
   "name": "coffee-react-brunch",
   "version": "0.5.1",
   "description": "Adds Coffee-React support to brunch.",
-  "author": "Reilly Watson (http://github.com/reillywatson)",
+  "author": "Reilly Watson",
   "homepage": "https://github.com/reillywatson/coffee-react-brunch",
   "repository": {
     "type": "git",
