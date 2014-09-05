@@ -3,14 +3,11 @@ Adds [Coffee-React](https://github.com/jsdf/coffee-react) support to
 [brunch](http://brunch.io).
 
 ## Installation
-Install the plugin via npm with `npm install --save coffee-react-brunch`.
+Add `"coffee-react-brunch": "x.y.z"` to `package.json` of your brunch app.
+This must go above coffeescript compilation, or it will run too late in the
+pipeline, and you'll get errors saying coffeescript can't understand angle
+brackets.
 
-Or, do manual install:
-
-* Add `"coffee-react-brunch": "x.y.z"` to `package.json` of your brunch app.
-  Pick a plugin version that corresponds to your minor (y) brunch version.
-* If you want to use git version of plugin, add
-`"coffee-react-brunch": "git+ssh://git@github.com:reillywatson/coffee-react-brunch.git"`.
 
 ## License
 

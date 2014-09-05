@@ -9,7 +9,7 @@ function CoffeeReactCompiler(config) {
 CoffeeReactCompiler.prototype.brunchPlugin = true;
 CoffeeReactCompiler.prototype.type = 'javascript';
 CoffeeReactCompiler.prototype.extension = 'coffee';
-CoffeeReactCompiler.prototype.pattern = /\.(coffee(\.md)?|litcoffee)$/;
+CoffeeReactCompiler.prototype.pattern = /\.coffee$/;
 
 CoffeeReactCompiler.prototype.compile = function(data, path, callback) {
   var compiled;
