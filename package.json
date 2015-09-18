@@ -1,6 +1,6 @@
 {
   "name": "coffee-react-brunch",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Adds Coffee-React support to brunch.",
   "author": "Reilly Watson",
   "homepage": "https://github.com/reillywatson/coffee-react-brunch",
@@ -9,6 +9,6 @@
     "url": "git@github.com:reillywatson/coffee-react-brunch.git"
   },
   "dependencies": {
-    "coffee-react-transform": "~0.5.1"
+    "coffee-react-transform": "^3.1.0"
   }
 }
